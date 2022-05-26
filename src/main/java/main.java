@@ -25,7 +25,7 @@ public class main {
         int counter=0;
         System.out.println("Results: ");
         try {
-            File directory = new File("F:\\Téléchargements");//change this to your documents directory
+            File directory = new File("F:\\Téléchargements");//change this to your documents directory 
 
             FilenameFilter pdffilter = new FilenameFilter() {
 
