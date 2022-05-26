@@ -49,7 +49,7 @@ public class main {
                 try{
                     PDDocument document = PDDocument.load(f);
                     PDFTextStripper pdftextStripper = new PDFTextStripper();
-                    String content = pdftextStripper.getText(document);
+                    String content = pdftextStripper.getText(document);//
                     if (content.contains(targettext)){
                         System.out.println("-> " + f.getName());
                         counter++;
